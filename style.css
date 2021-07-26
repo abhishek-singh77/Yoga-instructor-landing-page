@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #eb7686;
+    --color-primary: #3faf8a;
     --color-green-dark: #28b485;
     --color-green-light: #47cf73;
     --color-white: #fff;
     --color-gray: #f7f7f7;
-    --color-black: #333;
+    --color-black: rgb(194, 193, 192);
   }
   
   * {
@@ -78,7 +78,7 @@
     margin: 1.2rem;
     text-decoration: none;
     color: #2990ff;
-    color: rgb(236, 217, 217);
+    color: var(--color-primary);
     border-bottom: 2px solid transparent;
     transition: all 0.8s;
   }
@@ -211,18 +211,6 @@
     background-color: var(--color-primary);
   }
   
-  .prod-box ul {
-    padding: 2rem;
-  }
-  
-  .prod-box li {
-    padding: 0.7rem;
-  }
-  
-  .prod-box li:not(:last-child) {
-    border-bottom: 1px solid #eee;
-  }
-  
   .prod-box .price-tag {
     background-color: #2990ff;
     background-color: var(--color-primary);
@@ -242,9 +230,8 @@
     font-weight: 300;
     margin-bottom: 1.5rem;
   }
-  .flex-container {
-    display: flex;
-  }
+  
+
   .prod-box button {
     padding: 1rem 2rem;
     background-color: #47cf73;
